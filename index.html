@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Viet Le</title>
+    <meta name="google-site-verification" content="">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+
+    <style>
+        .img-wrap img {
+            max-width: 100%;
+        }
+    </style>
+<body data-ng-controller="AppController as app">
+<div class="io-background"></div>
+<div class="intro" style="display: none;">
+    <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="spinner-layer spinner-red">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="spinner-layer spinner-yellow">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="spinner-layer spinner-green">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="io-site">
+    <div class="io-nav" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+        <div class="io-nav-inner" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+            <header class="io-nav-header red accent-2" style="width: 253px;">
+                <div class="io-nav-text">
+                    <div class="io-nav-header-name white-text darken-1"
+                         style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Viet
+                        <strong>Le</strong>
+                    </div>
+                    <div class="io-nav-header-email"
+                         style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                        PHP & Javascript Developer
+                    </div>
+                </div>
+            </header>
+            <div class="io-navigation" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+                <a href="#section-1" data-ng-click="app.toSection2()" class="io-navigation-item waves-effect active">
+                    <i class="material-icons red-text accent-2"
+                       style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">face</i>
+                    <div class="io-navigation-item-text grey-text darken-1"
+                         style="margin-left: 0; visibility: inherit; opacity: 1;">Profile
+                    </div>
+                </a>
+                <a href="#section-2" data-ng-click="app.toSection2()" class="io-navigation-item waves-effect">
+                    <i class="material-icons purple-text accent-2"
+                       style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">verified_user</i>
+                    <div class="io-navigation-item-text grey-text darken-1"
+                         style="margin-left: 0; visibility: inherit; opacity: 1;">Experience
+                    </div>
+                </a>
+                <a href="#section-3" data-ng-click="app.toSection2()" class="io-navigation-item waves-effect">
+                    <i class="material-icons blue-text accent-2"
+                       style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">layers</i>
+                    <div class="io-navigation-item-text grey-text darken-1"
+                         style="margin-left: 0; visibility: inherit; opacity: 1;">Skills
+                    </div>
+                </a>
+                <a href="#section-4" data-ng-click="app.toSection2()" class="io-navigation-item waves-effect">
+                    <i class="material-icons amber-text darken-3"
+                       style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">school</i>
+                    <div class="io-navigation-item-text grey-text darken-1"
+                         style="margin-left: 0; visibility: inherit; opacity: 1;">Education
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="io-container" id="container">
+        <div class="io-content io-profile io-section" id="section-1"
+             style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+            <div class="io-header">About Me</div>
+            <div class="io-profile-details ng-scope">
+                <div class="row">
+                    <div class="col m6 s12">
+                        <ul class="about">
+                            <li>
+                                <label>Name</label><span class="value">Le Van Viet</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <label>Address:</label><span class="value">Thanh Xuan, HN City.</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <label>Birthday</label><span class="value">March 16, 1995</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <label>Email</label><span class="value">vietlv173@gmail.com</span>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col m6 s12">
+                        <ul class="about">
+                            <li>
+                                <label>Phone</label><span class="value">+84383223400</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <label>Skype:</label><span class="value">live:vietvuive173@outlook.com</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <label>Website:</label>
+                                <span class="value">
+                                    <a href="https://vietlv173.github.io" target="blank">vietlv173.github.io</a>
+                                </span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <label>Github:</label>
+                                <span class="value">
+                                    <a href="https://github.com/vietlv173" target="blank">github.com/vietlv173</a>
+                                </span>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p>
+                    PHP Developer with more than 5 years of working experience coding technically
+                    sophisticated web applications using PHP, NodeJS.
+                </p>
+            </div>
+        </div>
+        <div class="io-content" id="section-2"
+             style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+            <div class="col s12 io-content-header red accent-2"><h2 class="white-text">Experience</h2></div>
+            <div class="io-section">
+                <div class="io-section-heading-xs">
+                    <div class="io-section-heading-top">
+                        <div class="section-logo">
+                            <img src="assets/img/siclo.png" class="responsive-img">
+                        </div>
+                        <div class="section-date grey-text text-darken-1"><span>08/2018-Today</span></div>
+                    </div>
+                    <div class="io-section-heading-bottom">
+                        <div class="section-subtitle">
+                            <span class="yellow-text text-darken-4">Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="io-section-content ng-scope">
+                    <ul>
+                        <li class="center-item">
+                            <i class="material-icons green-text text-accent-2">done</i>
+                            <a href="https://siclo-mobile.com/">Siclo Mobile Vietnam</a>
+                        </li>
+                        <li class="center-item">
+                            <i class="material-icons green-text">place</i>
+                            <span class="ingigo-text">25 Hoang Hoa Tham, Ward 6, Binh Thanh District,Ho Chi Minh City, Vietnam.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="io-content" id="section-3"
+             style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+            <div class="col s12 io-content-header red accent-2">
+                <h2 class="white-text">Skill Set</h2>
+            </div>
+            <div class="io-section has-cards">
+                <div class="io-section-card">
+                    <div class="io-section-card-heading">Language</div>
+                    <div class="io-section-logos">
+                        <div class="img-wrap">
+                            <img src="assets/img/html5.png" class="responsive-img no-flex">
+                            <h6>HTML 5</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/css3.png" class="responsive-img no-flex">
+                            <h6>CSS 3</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/javascript.png" class="responsive-img no-flex">
+                            <h6>Javascript</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/jquery.png" class="responsive-img no-flex">
+                            <h6>jQuery</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/php.png" class="responsive-img no-flex">
+                            <h6>PHP</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="io-section-card">
+                    <div class="io-section-card-heading">Frameworks</div>
+                    <div class="io-section-logos">
+                        <div class="img-wrap">
+                            <img src="assets/img/yii2.webp" class="responsive-img no-flex">
+                            <h6>Yii2.0</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/laravel.png" class="responsive-img no-flex">
+                            <h6>Laravel</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/angular.png" class="responsive-img no-flex">
+                            <h6>AngularJS</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/vue.png" class="responsive-img no-flex">
+                            <h6>Vuejs</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/nodejs.png" class="responsive-img no-flex">
+                            <h6>NodeJS</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/express.png" class="top-lg responsive-img no-flex">
+                            <h6>ExpressJS</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/bootstrap.png" class="responsive-img no-flex">
+                            <h6>Bootstrap</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="io-section-card">
+                    <div class="io-section-card-heading">Tools &amp; Processors</div>
+                    <div class="io-section-logos">
+                        <div class="img-wrap">
+                            <img src="assets/img/less.png" class="responsive-img no-flex">
+                            <h6>Less</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/sass.png" class="responsive-img no-flex">
+                            <h6>Sass</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/ps.png" class="responsive-img no-flex">
+                            <h6>Photoshop</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/github.png" class="responsive-img no-flex">
+                            <h6>Github</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/cpanel.png" class="responsive-img no-flex">
+                            <h6>Cpanel</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/cwp_small.png" class="responsive-img no-flex">
+                            <h6>CentOS WebPanel</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="io-section-card">
+                    <div class="io-section-card-heading">Database</div>
+                    <div class="io-section-logos">
+                        <div class="img-wrap">
+                            <img src="assets/img/mysql.png" class="top-lg responsive-img no-flex">
+                            <h6>MySQL</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/sql.png" class="top-lg responsive-img no-flex">
+                            <h6>SQL Server</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/mongo.png" class="top-lg responsive-img no-flex">
+                            <h6>MongoDB</h6>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="assets/img/redis.png" class="responsive-img no-flex">
+                            <h6>Redis</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="io-content" id="section-4"
+             style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+            <div class="col s12 io-content-header red accent-2">
+                <h2 class="white-text">Education</h2>
+            </div>
+            <div class="io-section has-cards ng-scope">
+                <div class="io-section-heading-xs">
+                    <div class="io-section-heading-top">
+                        <div class="section-logo">
+                            <img src="assets/img/banner_logo.png" class="responsive-img">
+                            <img src="assets/img/bannertxt_en.png" class="responsive-img">
+                        </div>
+                        <div class="section-date grey-text text-darken-1">
+                            <span class="">2013-2017</span>
+                        </div>
+                    </div>
+                    <div class="io-section-heading-bottom">
+                        <div class="section-subtitle">
+                            <span class="pink-text">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="io-section-content">
+                    <ul>
+                        <li class="center-item">
+                            <i class="fa fa-chevron-right pink-text"></i>
+                            <a href="http://www.hus.vnu.edu.vn/vi">VNU University of Science</a>
+                        </li>
+                        <li class="center-item">
+                            <i class="material-icons pink-text">place</i>
+                            <span class="ingigo-text">334 Nguyen Trai - Thanh Xuan - Ha Noi - Viet Nam</span>
+                        </li>
+                        <li class="center-item">
+                            <i class="fa fa-circle pink-text"></i>
+                            <span>Student at Computing and Information Science - CIS.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <div class="row">
+                <div class="col m6"><p>Copyright © 2018 Viet Le.</p></div>
+                <div class="col m6 statics"><p>Made with <i class="material-icons pink-text">favorite</i> in Ha Noi.
+                </p></div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/app.min.js"></script>
+<div class="hiddendiv common"></div>
+</body>
+</html>
